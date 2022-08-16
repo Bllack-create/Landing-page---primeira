@@ -21,7 +21,10 @@ body {
 }
 
 .titulo {
-        font-size: 60px;
+        font-size: 60
+        
+        
+        px;
         background: -webkit-linear-gradient(rgb(92, 5, 5), rgb(247, 5, 5));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -60,4 +63,14 @@ body {
     .imagem:hover {
         box-shadow: 0 0 10px #000;
 
+    }
+    @media screen and (max-width: 800px) {
+
+        .back{
+            position: inherit;
+            
+            
+        
+        }
+        
     }
